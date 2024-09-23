@@ -1,28 +1,27 @@
-name: my_digital_pet_app  # Change this to your desired app name
-description: "A Flutter project for a digital pet application."  # Update the description
+name: my_digital_pet_app  
+description: "A Flutter project for a digital pet application."  
 
-publish_to: 'none'  # Keep this line if you don't intend to publish
+publish_to: 'none'  
 
-version: 1.0.0+1  # Keep your versioning format
+version: 1.0.0+1  
 
 environment:
-  sdk: ^3.5.3  # Ensure your SDK version matches your current Dart SDK
+  sdk: ^3.5.3  
 
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.8  # You can update this to the latest version if needed
+  cupertino_icons: ^1.0.8  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0  # Linting package for code quality
+  flutter_lints: ^4.0.0  
 
 flutter:
   assets:
-    - assets/background_happy.png  # Ensure you have these assets in the correct path
-    - assets/background_neutral.png
-    - assets/background_unhappy.png
-  uses-material-design: true  # Ensure this is included for Material design icons
 
-# Additional sections for fonts can be added here if needed
+    - assets/pet.png
+
+  uses-material-design: true 
+
